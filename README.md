@@ -72,7 +72,11 @@ Try accessing the `return_value` identifier without prepending `$`.
 
 <details>
     <summary>You Answer</summary>
-    ......
+    The dollar sign shows the difference between a variable name and the content of the variable. 
+    By using the dollar sign, we access the content stored in return_value, which returns the value 9.
+    
+    
+    Without the dollar sign, return_value is not treated as a variable but just as a normal word. That’s why the output is the string "return_value" instead of the actual value.
 </details>
 
 ### Task 3: Function-Identifiers
@@ -97,7 +101,8 @@ and pressing `enter`.
 
 <details>
     <summary>Calling a Function</summary>
-    Include a screenshot of your function-call!
+    Include a screenshot of your function-call
+    ![My Screenshot with my own Plus Function](./assets/MErarslan_plus_func.png)
 </details>
 
 ### Task 4: Handling Parameters
@@ -264,7 +269,27 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
     
 ```bash
 your code
-```
+combined_function () {
+result=$((1+1))
+echo "The result of the addition 1+1 is $result"
+
+text="My Name is Mikail Erarslan"
+length=${#text}
+echo "The lenght of '$text' is $length"
+
+str1="Ubuntu"
+str2="Windows"
+
+if [[ $str1 == $str2 ]]; then
+	echo "$str1 is the same as $str2"
+else
+	echo "$str1 is not the same as $str2"
+fi
+
+}
+
+![My code tried in Terminal](./assets/mycode.png)
+
 
 </details>
 
