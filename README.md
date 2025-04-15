@@ -102,7 +102,9 @@ and pressing `enter`.
 <details>
     <summary>Calling a Function</summary>
     Include a screenshot of your function-call
-    ![My Screenshot with my own Plus Function](./assets/MErarslan_plus_func.png)
+
+![My Screenshot with my own Plus Function](./assets/MErarslan_plus_func.png)
+	
 </details>
 
 ### Task 4: Handling Parameters
@@ -288,8 +290,7 @@ fi
 
 }
 
-![My code tried in Terminal](./assets/mycode.png)
-
+![My code tried in Terminal](./assets/my_function.png)
 
 </details>
 
