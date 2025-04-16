@@ -422,7 +422,9 @@ Use `rm` to delete a file and `rm -rf` to delete a directory.
     <summary>Your Terminal Output</summary>
 ```bash
 your terminal output
-```
+
+![create directory and file, delete](./assets/del_directory.png)
+	
 </details>
 
 ### Task 10: Managing Software
