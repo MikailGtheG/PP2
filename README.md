@@ -327,7 +327,7 @@ cat ./function
 **What happend?**
 <details>
     <summary>Your Explaination</summary>
-    .....
+    Using a single > overwrites the output file ./function with the new function, while >> appends the output to the file ./functions.
 
 </details>
 
