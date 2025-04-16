@@ -397,7 +397,15 @@ cd /
 **Run `ls` again and insert the content here:**
 <details>
     <summary>Your Answer</summary>
-    ....
+
+    bin                home               mnt   sbin.usr-is-merged  usr
+    bin.usr-is-merged  lib                opt   snap                var
+    boot               lib64              proc  srv
+    cdrom              lib.usr-is-merged  root  swap.img
+    dev                lost+found         run   sys
+    etc                media              sbin  tmp
+
+![My ls output](./assets/ls_output.png)
 </details>
 
 Now navigate through your filesystem using `cd` and the name of the directory you want to set as your new `pwd`.
