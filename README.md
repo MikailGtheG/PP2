@@ -270,7 +270,6 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
     <summary>Your Function</summary>
     
 ```bash
-your code
 combined_function () {
 result=$((1+1))
 echo "The result of the addition 1+1 is $result"
@@ -289,6 +288,7 @@ else
 fi
 
 }
+```
 
 ![My code tried in Terminal](./assets/my_function.png)
 
