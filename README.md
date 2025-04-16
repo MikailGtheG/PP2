@@ -478,10 +478,10 @@ When you finished that tutorial, open a file in your home directory and manipula
 **How do you save a buffer to a new filename from within `vim`?**
 <details>
     <summary>Your Answer</summary>
-    .....
+    To save a buffer to a new file in Vim, use :w new_filename. This writes the current buffer to the specified file without altering the original buffer.
 </details>
  
 
 ---
-
+83 Minutes in Total
 **Remember:** Stop working after 90 minutes and record where you stopped!
